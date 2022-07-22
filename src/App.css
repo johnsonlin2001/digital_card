@@ -1,0 +1,116 @@
+body{
+  margin: 0px;
+  background-color: #1A1B21;
+}
+
+.Info{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1A1B21;
+  color: white;
+  margin: 0px;
+  padding-top: 15px;
+}
+
+.Info > h1{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  margin-top: 21px;
+  margin-bottom: 0 ;
+}
+
+.Info > h2{
+  color: #F3BF99;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  margin-top: 6.19px;
+  margin-bottom: 0;
+}
+
+.git{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  margin-top: 8.8px;
+  margin-bottom: 0;
+}
+
+.buttons{
+  margin-top: 10px;
+  display: flex;
+  gap: 17px;
+}
+
+.about > p{
+  max-width: 247px;
+  color: white;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  margin-top: 20px;
+}
+
+.about > h1{
+  margin-right: 185px;
+  margin-bottom: 0px;
+}
+
+.interests{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  margin-top: 20px;
+}
+
+.interests > h1{
+  margin-right: 158px;
+}
+
+.interests > p{
+  max-width: 247px;
+}
+
+.footer{
+  background-color: #161619;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  gap: 20px;
+
+  /* And if you want the div to be full-width: */
+  left: 0;
+  right: 0;
+  height: 64px;
+}
+
